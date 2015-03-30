@@ -1,0 +1,34 @@
+body {
+	height: 1600px;
+	width: 100%;
+	margin: auto;
+}
+
+.banner-background{
+	background-color: grey;
+	border: 1px solid black;
+	height: 19%;
+	width: 100%;
+}
+
+.banner {position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 9999;
+	width: 100%;
+	height: 50%;
+	margin: auto;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.97;
+    text-align: center;
+}
+
+.banner h1, p{
+	margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+
